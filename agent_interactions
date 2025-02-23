@@ -1,0 +1,17 @@
+digraph {
+	"Agent A" [label="Agent A"]
+	"Agent B" [label="Agent B"]
+	"Agent A" -> "Agent B"
+	"Agent A" [label="Agent A"]
+	"Agent C" [label="Agent C"]
+	"Agent A" -> "Agent C"
+	"Agent B" [label="Agent B"]
+	"Agent D" [label="Agent D"]
+	"Agent B" -> "Agent D"
+	"Agent C" [label="Agent C"]
+	"Agent D" [label="Agent D"]
+	"Agent C" -> "Agent D"
+	"Agent D" [label="Agent D"]
+	"Agent E" [label="Agent E"]
+	"Agent D" -> "Agent E"
+}
